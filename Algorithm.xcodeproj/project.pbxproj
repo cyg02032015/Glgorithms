@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E402196A1D6EFCF5007D9859 /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = E40219681D6EFCF5007D9859 /* Queue.c */; };
+		E402196D1D6F01D0007D9859 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = E402196B1D6F01D0007D9859 /* Stack.c */; };
+		E40219701D6FE1CE007D9859 /* CardGame.c in Sources */ = {isa = PBXBuildFile; fileRef = E402196E1D6FE1CE007D9859 /* CardGame.c */; };
+		E40219731D7019E9007D9859 /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = E40219711D7019E9007D9859 /* LinkedList.c */; };
+		E40219761D704595007D9859 /* DeepFirstSearch.c in Sources */ = {isa = PBXBuildFile; fileRef = E40219741D704595007D9859 /* DeepFirstSearch.c */; };
 		E4857C9E1D61BF360082DCBA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E4857C9D1D61BF360082DCBA /* main.c */; };
+		E4857CA91D61BFBA0082DCBA /* Sort.c in Sources */ = {isa = PBXBuildFile; fileRef = E4857CA71D61BFBA0082DCBA /* Sort.c */; };
+		E4857CAC1D61CB410082DCBA /* Example.c in Sources */ = {isa = PBXBuildFile; fileRef = E4857CAA1D61CB410082DCBA /* Example.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E40219681D6EFCF5007D9859 /* Queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Queue.c; sourceTree = "<group>"; };
+		E40219691D6EFCF5007D9859 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		E402196B1D6F01D0007D9859 /* Stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
+		E402196C1D6F01D0007D9859 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		E402196E1D6FE1CE007D9859 /* CardGame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CardGame.c; sourceTree = "<group>"; };
+		E402196F1D6FE1CE007D9859 /* CardGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardGame.h; sourceTree = "<group>"; };
+		E40219711D7019E9007D9859 /* LinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
+		E40219721D7019E9007D9859 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		E40219741D704595007D9859 /* DeepFirstSearch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DeepFirstSearch.c; sourceTree = "<group>"; };
+		E40219751D704595007D9859 /* DeepFirstSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeepFirstSearch.h; sourceTree = "<group>"; };
 		E4857C9A1D61BF360082DCBA /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4857C9D1D61BF360082DCBA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E4857CA71D61BFBA0082DCBA /* Sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Sort.c; sourceTree = "<group>"; };
+		E4857CA81D61BFBA0082DCBA /* Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
+		E4857CAA1D61CB410082DCBA /* Example.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Example.c; sourceTree = "<group>"; };
+		E4857CAB1D61CB410082DCBA /* Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				E4857C9D1D61BF360082DCBA /* main.c */,
+				E40219691D6EFCF5007D9859 /* Queue.h */,
+				E402196C1D6F01D0007D9859 /* Stack.h */,
+				E402196B1D6F01D0007D9859 /* Stack.c */,
+				E40219681D6EFCF5007D9859 /* Queue.c */,
+				E4857CA81D61BFBA0082DCBA /* Sort.h */,
+				E4857CA71D61BFBA0082DCBA /* Sort.c */,
+				E4857CAB1D61CB410082DCBA /* Example.h */,
+				E4857CAA1D61CB410082DCBA /* Example.c */,
+				E402196F1D6FE1CE007D9859 /* CardGame.h */,
+				E402196E1D6FE1CE007D9859 /* CardGame.c */,
+				E40219721D7019E9007D9859 /* LinkedList.h */,
+				E40219711D7019E9007D9859 /* LinkedList.c */,
+				E40219751D704595007D9859 /* DeepFirstSearch.h */,
+				E40219741D704595007D9859 /* DeepFirstSearch.c */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -119,6 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4857C9E1D61BF360082DCBA /* main.c in Sources */,
+				E402196A1D6EFCF5007D9859 /* Queue.c in Sources */,
+				E40219731D7019E9007D9859 /* LinkedList.c in Sources */,
+				E4857CA91D61BFBA0082DCBA /* Sort.c in Sources */,
+				E402196D1D6F01D0007D9859 /* Stack.c in Sources */,
+				E4857CAC1D61CB410082DCBA /* Example.c in Sources */,
+				E40219761D704595007D9859 /* DeepFirstSearch.c in Sources */,
+				E40219701D6FE1CE007D9859 /* CardGame.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +281,7 @@
 				E4857CA31D61BF360082DCBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
